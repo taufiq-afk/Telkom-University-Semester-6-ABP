@@ -1,6 +1,6 @@
 # Librify Hub - Perpustakaan Digital
 
-![Librify Hub Logo](assets/logo.png) *Jika ada logo*
+![Librify Hub Logo](assets/logo.png)
 
 Repositori ini berisi implementasi aplikasi Librify Hub berbasis mobile (Flutter) dengan backend PHP.
 
