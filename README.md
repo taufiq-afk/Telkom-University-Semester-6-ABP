@@ -6,3 +6,4 @@ Anggota Kelompok 8 :
 - Shalisyah Amania Fatiha - 1301223251
 - Raditya Arta Parartama - 1301223197
 - Aaron Barrichello P - 1301223337
+- Shidqi Amarulloh - 1301201571
