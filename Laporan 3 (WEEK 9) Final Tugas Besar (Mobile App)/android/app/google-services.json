@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "647965852476",
+    "project_id": "librifyhub",
+    "storage_bucket": "librifyhub.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:647965852476:android:673e0dbdd838f2f1789439",
+        "android_client_info": {
+          "package_name": "com.example.librifyhub"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAYZOVsizJbLVYLPxetQE_f9t782sswaPU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
