@@ -6,11 +6,17 @@ Repositori ini berisi implementasi aplikasi Librify Hub
 
 ## 📁 Struktur Repositori
 librify-hub/
+
 ├── android/ # Kode native Android
+
 ├── assets/ # Aset aplikasi (gambar, font, dll)
+
 ├── backend/ # Kode backend python
+
 ├── lib/ # Kode utama Flutter
+
 ├── README.md # Dokumentasi ini
+
 └── pubspec.yaml # Konfigurasi dependensi Flutter
 
 
