@@ -1,0 +1,39 @@
+name: librifyhub
+description: Fully rebuilt LibrifyHub app with chatbot and book management.
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.18.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  firebase_core: ^2.25.4
+  firebase_auth: ^4.16.4
+  shared_preferences: ^2.2.2
+  font_awesome_flutter: ^10.5.0
+  cupertino_icons: ^1.0.2
+  http: ^0.13.6
+  cloud_firestore: ^4.13.3
+  flutter_markdown: ^0.7.7
+  intl: ^0.18.1
+
+dev_dependencies:
+  flutter_native_splash: ^2.3.6
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/fonts/
+    - assets/logo.png
+
+  fonts:
+    - family: Chilanka
+      fonts:
+        - asset: assets/fonts/Chilanka-Regular.ttf
+
+flutter_native_splash:
+  color: "#FFFFFF" # Background splash screen putih
+  image: assets/logo.png
+  android: true
+  ios: true
