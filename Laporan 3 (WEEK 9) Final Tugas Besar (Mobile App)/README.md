@@ -27,4 +27,3 @@ librify-hub/
    Slide presentasi proyek (overview fitur dan demo)
 
 ## 📦 Link Tambahan
-https://drive.google.com/file/d/1cqKXUZiwWzYc5wmmt_o-YGzBbzEd_Zko/view?usp=drive_link
