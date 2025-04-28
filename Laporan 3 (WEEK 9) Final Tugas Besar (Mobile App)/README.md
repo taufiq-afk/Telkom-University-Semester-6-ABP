@@ -1,6 +1,7 @@
-# Librify Hub - Perpustakaan Digital
+# Librify Hub - Library Management System
 
 <img src="assets/logo.png" alt="Librify Hub Logo" width="400"/>
+
 
 Repositori ini berisi implementasi aplikasi Librify Hub
 
