@@ -3,8 +3,6 @@
 <img src="assets/logo.png" alt="Librify Hub Logo" width="400"/>
 
 
-## Repositori ini berisi implementasi aplikasi Librify Hub
-
 ## 📁 Struktur Repositori
 librify-hub/
 
