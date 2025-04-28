@@ -1,7 +1,8 @@
 # Librify Hub - Library Management System
 
-<img src="assets/logo.png" alt="Librify Hub Logo" width="400"/>
-
+<div style="display: inline-block; background-color: #f0f0f0; border-radius: 50px; padding: 10px;">
+  <img src="assets/logo.png" alt="Librify Hub Logo" width="100" height="100" style="border-radius: 50px; background-color: #ffffff;"/>
+</div>
 
 ## 📁 Struktur Repositori
 librify-hub/
