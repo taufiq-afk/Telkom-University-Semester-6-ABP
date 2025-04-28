@@ -1,6 +1,6 @@
 # Librify Hub - Perpustakaan Digital
 
-![Librify Hub Logo](<img src="assets/logo.png" alt="Librify Hub Logo" width="200"/>)
+<img src="assets/logo.png" alt="Librify Hub Logo" width="200"/>
 
 Repositori ini berisi implementasi aplikasi Librify Hub
 
