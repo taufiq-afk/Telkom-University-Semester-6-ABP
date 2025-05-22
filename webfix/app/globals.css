@@ -1,0 +1,108 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  /* Base colors */
+  --background: #ffffff;
+  --foreground: #171717;
+
+  /* Yellow Gold Palette */
+  --gold-100: #e8c273;
+  --gold-200: #e5b85c;
+  --gold-300: #e1af47;
+  --gold-400: #dea730;
+  --gold-500: #d39b22;
+
+  /* Input styling */
+  --input-text: #000000;
+  --input-placeholder: #6b7280;
+  --input-border: #e5e7eb;
+  --input-focus: var(--gold-400);
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --background: #0a0a0a;
+    --foreground: #ededed;
+    --input-text: #ffffff;
+    --input-placeholder: #9ca3af;
+    --input-border: #374151;
+    --input-focus: var(--gold-300);
+  }
+}
+
+body {
+  background: var(--background);
+  color: var(--foreground);
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Improved input styling for better text visibility */
+input,
+textarea,
+select {
+  font-weight: 500;
+  color: var(--input-text);
+}
+
+/* Placeholder styling */
+input::placeholder,
+textarea::placeholder,
+select::placeholder {
+  color: var(--input-placeholder);
+  font-weight: 400;
+  opacity: 0.8;
+}
+
+/* Focus states for better usability */
+input:focus,
+textarea:focus,
+select:focus {
+  outline: none;
+  border-color: var(--gold-400);
+  box-shadow: 0 0 0 2px rgba(222, 167, 48, 0.2);
+}
+
+/* Tailwind utilities */
+.scrollbar-hide {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
+.scrollbar-hide::-webkit-scrollbar {
+  display: none;
+}
+
+.text-balance {
+  text-wrap: balance;
+}
+
+/* Custom gradient text */
+.text-gradient-gold {
+  background: linear-gradient(to right, #e8c273, #d39b22);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+}
+
+/* Button styles */
+.btn-primary {
+  background-color: var(--gold-400);
+  color: white;
+  transition: all 0.2s ease;
+}
+
+.btn-primary:hover {
+  background-color: var(--gold-500);
+}
+
+.btn-outline {
+  background-color: transparent;
+  border: 1px solid var(--gold-400);
+  color: var(--gold-500);
+}
+
+.btn-outline:hover {
+  background-color: var(--gold-50);
+}
